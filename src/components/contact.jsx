@@ -20,7 +20,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_g5xdeyd', 'template_p7pe77l', e.target, 'user_lz93TMwrpjXOO2gt49JOG'
       )
       .then(
         (result) => {
@@ -150,10 +150,11 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
+            &copy; Blatom 2021. Design by{' '}
             <a href='http://www.templatewire.com' rel='nofollow'>
               TemplateWire
             </a>
+            .  Credits Issaaf kattan
           </p>
         </div>
       </div>
