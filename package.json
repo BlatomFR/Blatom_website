@@ -1,6 +1,7 @@
 {
   "name": "landingpage-react-template",
   "homepage": "https://github.com/scascar/React-Landing-Page-Template",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
