@@ -1,6 +1,6 @@
 {
   "name": "landingpage-react-template",
-  "homepage": "https://www.blatom.fr",
+  "homepage": "blatom.fr",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
