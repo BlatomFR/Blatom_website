@@ -1,53 +1,26 @@
 {
     "Header": {
         "title": "Welcome to  Blatom",
-        "paragraph": "testo ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "paragraph": "une fusion entre expertise, innovation et stratégie."
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Bence et Oscar sont deux jeunes ingénieurs qui se sont rencontrés durant leurs études et qui y ont découvert un esprit entrepreneurial. Ils ont tout d'abord chacun de leur côté commencé à travailler dans des entreprises de conseil. Leur vie en collocation leur a permis d'échanger toujours plus d'idées qui ont finalement abouti à la création de Blatom. Les deux associés forment une parfaite combinaison d'expertise technique et commerciale ",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Fusion",
+            "Complémentarité",
+            "Passion "
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Innovation",
+            "Engagement",
+            "Expérience"
         ]
     },
     "Services": [
         {
             "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+            "name": "Mikto",
+            "text": "Pour son premier produit, Blatom s'est lancé dans le développement d'une application, Mikto. Ce concept cherche à modifier le principe des applications de rencontres actuelles. Ainsi dans Mikto, un utilisateur reçoit un nombre fini de “fleurs” par jour qu’il ou elle peut répartir à sa guise aux profils qui lui sont proposés. Si un profil lui plait particulièrement il ou elle a le choix d’envoyer toutes ses fleurs à cette unique personne qui verra à son tour que tous ses “likes” du jour lui ont été envoyés. Par la suite des challenge sont proposés aux utilisateurs qui leur fait gagner un certain nombre de diamants. Ces diamants pourront par la suite être utilisés dans la boutique de l'application ou encore dans la vraie vie. C'est à dire que l'application leur proposera des rencontres chez l'un de ces partenaires qui seront des endroits sûrs pour un premier rendez-vous  "
         }
     ],
     "Testimonials": [
@@ -84,17 +57,17 @@
     ],
     "Team": [
         {
-            "img": "img/team/01.jpg",
+            "img": "img/team/bence.jpg",
             "name": "Bence Tomojzer",
             "job": "Director"
         },
         {
-            "img": "img/team/02.jpg",
+            "img": "img/team/oscar.jpg",
             "name": "Oscar Blazejewski",
             "job": "CTO"
         },
         {
-            "img": "img/team/03.jpg",
+            "img": "img/team/louise.PNG",
             "name": "Louise Garcia",
             "job": "Marketing and development"
         }
