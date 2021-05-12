@@ -10,6 +10,8 @@ import { Team } from './components/Team'
 import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { CGU } from './components/cgu'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -23,17 +25,27 @@ const App = () => {
   }, [])
 
   return (
-    <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      {/* <Features data={landingPageData.Features} /> */}
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
-      {/* <Gallery /> */}
-      {/* <Testimonials data={landingPageData.Testimonials} /> */}
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-    </div>
+    <Router>
+
+      <Route exact path="/">
+        <div>
+          <Navigation />
+          <Header data={landingPageData.Header} />
+          {/* <Features data={landingPageData.Features} /> */}
+          <About data={landingPageData.About} />
+          <Services data={landingPageData.Services} />
+          {/* <Gallery /> */}
+          {/* <Testimonials data={landingPageData.Testimonials} /> */}
+          <Team data={landingPageData.Team} />
+          <Contact data={landingPageData.Contact} />
+        </div>
+
+      </Route>
+      <Route exact path="/CGU">
+        <CGU />
+      </Route>
+
+    </Router>
   )
 }
 
