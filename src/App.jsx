@@ -10,7 +10,7 @@ import { Team } from './components/Team'
 import { Contact } from './components/contact'
 import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import { CGU } from './components/cgu'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -25,7 +25,7 @@ const App = () => {
   }, [])
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
 
       <Route exact path="/">
         <div>
