@@ -1,7 +1,7 @@
 {
     "Header": {
         "title": "Welcome to  Blatom",
-        "paragraph": "une fusion entre expertise, innovation et stratégie."
+        "paragraph": "Développement d'applications pour grand public."
     },
     "About": {
         "paragraph": "Bence et Oscar sont deux jeunes ingénieurs qui se sont rencontrés durant leurs études et qui y ont découvert un esprit entrepreneurial. Ils ont tout d'abord chacun de leur côté commencé à travailler dans des entreprises de conseil. Leur vie en collocation leur a permis d'échanger toujours plus d'idées qui ont finalement abouti à la création de Blatom. Les deux associés forment une parfaite combinaison d'expertise technique et commerciale ",
@@ -64,12 +64,7 @@
         {
             "img": "img/team/oscar.jpg",
             "name": "Oscar Blazejewski",
-            "job": "CTO"
-        },
-        {
-            "img": "img/team/louise.PNG",
-            "name": "Louise Garcia",
-            "job": "Marketing and development"
+            "job": "Tech Lead"
         }
     ],
     "Contact": {

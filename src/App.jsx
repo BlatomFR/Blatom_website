@@ -12,6 +12,7 @@ import JsonData from './data/data.json'
 import SmoothScroll from 'smooth-scroll'
 import { HashRouter as Router, Route } from 'react-router-dom'
 import { CGU } from './components/cgu'
+import { PrivacyPolicyEN } from './components/privacy_policy_en'
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -41,8 +42,11 @@ const App = () => {
         </div>
 
       </Route>
-      <Route exact path="/CGU">
+      <Route exact path="/CGU/fr">
         <CGU />
+      </Route>
+      <Route exact path="/privacy/en">
+        <PrivacyPolicyEN />
       </Route>
 
     </Router>

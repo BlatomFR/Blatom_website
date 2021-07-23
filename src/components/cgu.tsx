@@ -1,14 +1,15 @@
 import React from "react"
+import "../design/legal.css"
 
 export const CGU = (props: any) => {
     return (
-        <div>
-            CONDITIONS GÉNÉRALES D’UTILISATION
+        <div id="container">
+            <h1>CONDITIONS GÉNÉRALES D’UTILISATION</h1>
 
 
-            Date de dernière mise à jour : 25/02/2021
+            <h6>Date de dernière mise à jour : 25/02/2021</h6><br /><br />
 
-            Article 1 – MENTION LÉGALES
+            <h3>Article 1 – MENTION LÉGALES</h3>
 
             Le présent site, accessible à l’URL https://blatom.fr/  (le « Site »), est édité par :
             Blatom, société au capital de 10 000 euros, inscrite au R.C.S. de Nanterre sous le numéro 893 321 083, dont le siège social est situé au 85 Rue des Acquevilles 92150 Suresnes, représentée par Oscar Blazejewski dûment habilité,
@@ -17,7 +18,8 @@ export const CGU = (props: any) => {
 
             L’Exploitant peut être joint à l’adresse mail suivante support@blatom.fr.
 
-            Article 2 – DESCRIPTION DU SERVICE
+            <br /><br /><br />
+            <h3>Article 2 – DESCRIPTION DU SERVICE</h3>
 
             Le Site est mis à la disposition de toute personne accédant au site (l’ « Utilisateur ») pour faire de nouvelles rencontres.
 
@@ -29,8 +31,9 @@ export const CGU = (props: any) => {
 
             Les informations et services proposés par le Site sont gratuits, et accessibles 24h/24h et 7jours/7 jours, sauf en cas de force majeure, de pannes informatiques, d’opérations de maintenance ou de problèmes liés aux réseaux de télécommunications.
 
+            <br /><br /><br />
 
-            Article 3 – PROPRIÉTÉ INTELLECTUELLE ET LICENCE D’UTILISATION DU SITE
+            <h3>Article 3 – PROPRIÉTÉ INTELLECTUELLE ET LICENCE D’UTILISATION DU SITE</h3>
 
             L’Exploitant est seul titulaire de tous les éléments présents sur le Site, notamment et sans limitation, tous textes, fichiers, images animées ou non, photographies, vidéos, logos, dessins, modèles, logiciels, marques, identité visuelle, base de données, structure du Site et tous autres éléments de propriété intellectuelle et autres données ou informations (ci-après, les « Éléments ») qui sont protégés par les lois et règlements français et internationaux relatifs notamment à la propriété intellectuelle.
 
@@ -40,7 +43,8 @@ export const CGU = (props: any) => {
 
             L’Exploitant se réserve la possibilité de saisir toutes voies de droit à l’encontre des personnes qui n’auraient pas respecté les interdictions contenues dans le présent article.
 
-            ARTICLE 4 – RESPONSABILITÉ ET GARANTIE
+            <br /><br /><br />
+            <h3>ARTICLE 4 – RESPONSABILITÉ ET GARANTIE</h3>
 
             L’Exploitant ne peut être tenu pour responsable des informations importées, stockées et/ou publiées sur le Site par les Utilisateurs. L’Exploitant ne peut être tenu pour responsable au titre de toute information publiée par un Utilisateur sur le Site et des dommages directs ou indirects que cette utilisation pourrait causer à un tiers, l’Utilisateur à l'origine de la publication restant seul responsable à ce titre.
 
@@ -50,12 +54,14 @@ export const CGU = (props: any) => {
 
             L’Utilisateur est seul responsable de l'intégralité des contenus qu'il met en ligne sur le Site, dont il déclare expressément disposer de l'intégralité des droits, et garantit à ce titre l’Exploitant qu'il ne met pas en ligne de contenus violant des droits tiers, notamment de propriété intellectuelle, ou constituant une atteinte aux personnes (notamment diffamation, insultes, injures, etc.), au respect de la vie privée, une atteinte à l'ordre public et aux bonnes mœurs (notamment, apologie des crimes contre l'humanité, incitation à la haine raciale, pornographie enfantine, etc.). En cas d'atteinte aux lois en vigueur, aux bonnes mœurs ou aux présentes Conditions Générales d'Utilisation, l’Exploitant peut exclure de plein droit les Utilisateurs qui se seront rendus coupables de telles infractions et supprimer des informations et renvois à ces contenus litigieux. L’Exploitant est qualifié d’hébergeur s’agissant du contenu mis en ligne par des tiers. À ce titre, il est rappelé que l’Exploitant n’a aucune obligation générale de surveillance du contenu transmis ou stocké via le Site. Dans le cas où la responsabilité de l’Exploitant serait recherchée à raison d'un contenu mis en ligne par l’Utilisateur, ce dernier s'engage à garantir l’Exploitant contre toute condamnation prononcée à son encontre ainsi qu’à rembourser l’Exploitant de l’ensemble des frais, notamment les honoraires d’avocats, engagés pour sa défense.
 
-            ARTICLE 5 – DONNÉES PERSONNELLES
+            <br /><br /><br />
+            <h3>ARTICLE 5 – DONNÉES PERSONNELLES</h3>
 
             Pour davantage d’informations concernant l’utilisation de données à caractère personnel par l’Exploitant, veuillez lire attentivement la Charte sur le respect de la vie privée (la « Charte »). Vous pouvez à tout moment consulter cette Charte sur le Site.
 
 
-            Article 6 – LIENS HYPERTEXTES
+            <br /><br /><br />
+            <h3>Article 6 – LIENS HYPERTEXTES</h3>
 
             Les liens hypertextes disponibles sur le Site peuvent renvoyer vers des sites tiers non édités par l’Exploitant. Ils sont fournis uniquement pour la convenance de l’Utilisateur, afin de faciliter l’utilisation des ressources disponibles sur l’Internet. Si l’Utilisateur utilise ces liens, il quittera le Site et acceptera alors d’utiliser les sites tiers à ses risques et périls ou le cas échéant conformément aux conditions qui les régissent.
 
@@ -71,13 +77,16 @@ export const CGU = (props: any) => {
 
             L’Utilisateur ne pourra pas utiliser et/ou insérer de lien hypertexte pointant vers le site sans l’accord écrit et préalable de l’Exploitant au cas par cas.
 
-            ARTICLE 7 –  DISPOSITION GÉNÉRALES
+            <br /><br /><br />
+            <h3>ARTICLE 7 –  DISPOSITION GÉNÉRALES</h3>
 
-            INTÉGRALITÉ DE L’ACCORD DES PARTIES
+            <br />
+            <h4>INTÉGRALITÉ DE L’ACCORD DES PARTIES</h4>
 
             Les présentes Conditions Générales d’Utilisation constituent un contrat régissant les relations entre l’Utilisateur et l’Exploitant. Elles constituent l'intégralité des droits et obligations de l’Exploitant et de l’Utilisateur relatifs à leur objet. Si une ou plusieurs stipulations des présentes Conditions Générales d’Utilisation étaient déclarées nulles en application d'une loi, d'un règlement ou à la suite d'une décision définitive d'une juridiction compétente, les autres stipulations garderont toute leur force et leur portée. En outre, le fait pour une des parties aux présentes Conditions Générales d’Utilisation de ne pas se prévaloir d'un manquement de l'autre partie à l'une quelconque des dispositions des présentes Conditions Générales d’Utilisation ne saurait s'interpréter comme une renonciation de sa part à se prévaloir dans l'avenir d'un tel manquement.
 
-            MODIFICATIONS DES CONDITIONS D'UTILISATION
+            <br />
+            <h4>MODIFICATIONS DES CONDITIONS D'UTILISATION</h4>
 
             L’Exploitant se réserve le droit de modifier à tout moment et sans préavis le contenu du Site ou des services qui y sont disponibles, et/ou de cesser de manière temporaire ou définitive d’exploiter tout ou partie du Site.
 
@@ -85,7 +94,8 @@ export const CGU = (props: any) => {
 
             L’Utilisateur reconnaît que l’Exploitant ne saurait être tenu responsable de quelque manière que ce soit envers lui ou tout tiers du fait de ces modifications, suspensions ou cessations.
 
-            RÉCLAMATION - MÉDIATION
+            <br />
+            <h4>RÉCLAMATION - MÉDIATION</h4>
 
             En cas de litige, vous devez vous adresser en priorité au service client de l'entreprise aux coordonnées suivantes: support@blatom.fr
 
@@ -93,11 +103,13 @@ export const CGU = (props: any) => {
 
             Le médiateur tentera, en toute indépendance et impartialité, de rapprocher les parties en vue d'aboutir à une solution amiable. Les parties restent libres d'accepter ou de refuser le recours à la médiation ainsi que, en cas de recours à la médiation, d'accepter ou de refuser la solution proposée par le médiateur.
 
-            DROIT APPLICABLE
+            <br />
+            <h4>DROIT APPLICABLE</h4>
 
             Ces Conditions Générales d’Utilisation sont régies, interprétées et appliquées conformément au droit français.
 
-            ACCEPTATION DES CONDITIONS GÉNÉRALES PAR L’UTILISATEUR
+            <br />
+            <h4>ACCEPTATION DES CONDITIONS GÉNÉRALES PAR L’UTILISATEUR</h4>
 
             L’Utilisateur reconnaît avoir lu attentivement les présentes Conditions Générales d’Utilisation.
 
