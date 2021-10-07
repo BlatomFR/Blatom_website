@@ -1,4 +1,7 @@
 steps:
+
+- name: 'gcr.io/cloud-builders/yarn'
+  args: ['cache', 'clean']
 - name: 'gcr.io/cloud-builders/yarn'
   args: ['install']
 
