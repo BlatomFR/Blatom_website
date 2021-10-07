@@ -1,11 +1,9 @@
 steps:
 
-- name: 'gcr.io/cloud-builders/yarn'
-  args: ['cache', 'clean']
-- name: 'gcr.io/cloud-builders/yarn'
+- name: 'gcr.io/cloud-builders/yarn:node-14.17.1'
   args: ['install']
 
-- name: 'gcr.io/cloud-builders/yarn'
+- name: 'gcr.io/cloud-builders/yarn:node-14.17.1'
   args: ['build']
 
 - name: 'gcr.io/$PROJECT_ID/firebase'
